@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <style>
+    body{
+      background: rgb(214, 241, 174);
+    }
+    .button{
+      width: 30em;
+      height: 10em;
+    }
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ログイン画面</title>
+  <script type="text/javascript">
+    "use strict";
+    function gate(){
+      var UserInput = prompt("パスワードを入力してください:","");
+      location.href = UserInput + ".html";
+    }
+  </script>  
+</head>
+<body>
+  <input type="button" value="クリックしてパスワードを入力" onclick="gate();" class="button">
+</body>
+</html>
