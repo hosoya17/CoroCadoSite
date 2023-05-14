@@ -95,6 +95,7 @@ body{
   width: 10em;
   height: 3em;
   margin: 540px 300px;
+  animation: btn 0.7s infinite;
 }
 .back{
   width: 10em;
@@ -128,5 +129,13 @@ body{
   100%{
     opacity: 1;
     transform: translateY(-600px);
+  }
+}
+@keyframes btn{
+  0%{
+    color: black;
+  }
+  100%{
+    color: orange;
   }
 }
