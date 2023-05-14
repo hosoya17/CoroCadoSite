@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+  background: rgb(214, 241, 174);
+}
+.img1-6{
+  display: flex;
+}
+.img7-12{
+  display: flex;
+}
+.img13-18{
+  display: flex;
+}
+.img19-24{
+  display: flex;
+}
+.img7-11{
+  display: flex;
+}
+.img25-{
+  display: flex;
+}
+
+button{
+    width: 10em;
+    height: 3em;
+    margin: 10px 40px;
+  }
