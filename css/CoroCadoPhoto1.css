@@ -12,16 +12,16 @@ body{
     top: 0;
     left: 0;
     z-index: 1;
-  }
-  .imgArea li:first-child {
+}
+.imgArea li:first-child {
     z-index: 2;
-  }
-  .imgArea .img1{
+}
+.imgArea .img1{
     opacity: 1;
-  }
-  .imgArea .img2{
+}
+.imgArea .img2{
     opacity: 0;
-  }
+}
   .imgArea .img3{
     opacity: 0;
   }
@@ -95,6 +95,7 @@ body{
     width: 10em;
     height: 3em;
     margin: 540px 300px;
+    animation: btn 0.7s infinite;
   }
   .back{
     width: 10em;
@@ -128,5 +129,13 @@ body{
     100%{
       opacity: 1;
       transform: translateY(-1000px);
+    }
+  }
+  @keyframes btn{
+    0%{
+      color: black;
+    }
+    100%{
+      color: orange;
     }
   }
