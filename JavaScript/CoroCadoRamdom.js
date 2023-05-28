@@ -9,9 +9,11 @@ btn.addEventListener('click', ()=> {
     img.classList.remove('fadeIn');
     img.classList.remove('fadeOut');
   });
-  i = Math.floor(Math.random() * 24);
-  console.log(i);
-
+  i = Math.floor(Math.random() * 25);
+  while(tmp === i){
+    i = Math.floor(Math.random() * 25);
+  }
+  
   imgs[tmp].classList.add('fadeOut');
   imgs[i].classList.add('fadeIn');
   imgs[i].style.opacity = 1;
