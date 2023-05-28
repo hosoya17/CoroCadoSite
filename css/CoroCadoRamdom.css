@@ -113,7 +113,7 @@ body{
 }
 @keyframes fadeIn{
   0%{
-    transform: translateY(1400px);
+    transform: translateY(-800px);
   }
   100%{
     transform: translateY(0);
@@ -122,15 +122,15 @@ body{
 @keyframes fadeOut{
   0%{
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
   50%{
     opacity: 1;
-    transform: translateY(0) rotate(720deg);
+    transform: translateX(0) rotate(720deg);
   }
   100%{
     opacity: 1;
-    transform: translateY(-600px);
+    transform: translateX(2800px);
   }
 }
 @keyframes btn{
